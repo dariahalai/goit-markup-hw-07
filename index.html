@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="page-header">
@@ -361,7 +360,6 @@
                         </a>
                     </li>
                 </ul>
-                </ul>
             </div>
             <div class="signup-field page-footer__signup-field">
                 <b class="signup-field__title">Підписатись на розсилку</b>
@@ -378,7 +376,7 @@
     </footer>
 
     <div class="backdrop is-hidden" data-modal >
-        <div class="modal" >
+        <div class="modal backdrop__modal" >
            <button class="modal__btn" data-modal-close >
             <svg class="modal__btn-icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-close"></use>
@@ -407,7 +405,7 @@
                     <use href="./images/sprite.svg#icon-mail"></use>
                 </svg>
                 <input class="form__input"  type="email" name="email">
-            </label class="coment">
+            </label>
             <div class="form__label">
                 <span class="form__label-text">Коментар</span>
             <textarea class="form__textarea" name="comments"  placeholder="Введіть текст"></textarea>
